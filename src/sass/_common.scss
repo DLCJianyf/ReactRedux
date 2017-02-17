@@ -1,0 +1,21 @@
+@mixin screen($width) {
+    @media(max-width: $width) {
+        @content
+    }
+}
+
+@mixin box-shadow($value...) {
+    box-shadow: $value;
+}
+
+@mixin box-size($value...) {
+    box-sizing: $value;
+}
+
+@mixin background-size($value...) {
+    background-size: $value;
+}
+
+@mixin transition($value...) {
+    transition: $value;
+}
